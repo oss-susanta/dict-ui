@@ -1,0 +1,8 @@
+.dictionary {
+  margin: 24px auto;
+  padding: 8px 24px 16px;
+  width: clamp(40ch, 100vw - 48px, 1200px);
+  background: #fff;
+  height: calc(100% - 48px);
+  overflow: auto;
+}

@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Baloo 2', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-bg, rgb(50 50 50 / 10%));
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: var(--scrollbar-thumb-bg, rgb(50 50 50 / 30%));
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--scrollbar-corner-bg, rgb(50 50 50 / 15%));
+}
