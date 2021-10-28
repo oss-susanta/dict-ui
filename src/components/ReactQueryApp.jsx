@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { QueryClientProvider, QueryClient, useQuery } from 'react-query';
+import { ReactQueryDevtools } from 'react-query/devtools';
 import Dictionary from './Dictionary';
 import { fetchWord } from '../api';
 
@@ -27,6 +28,7 @@ export default function ReactQueryApp() {
   return (
     <QueryClientProvider client={queryClient}>
       <DictionaryContainer />
+      <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
     </QueryClientProvider>
   );
 }

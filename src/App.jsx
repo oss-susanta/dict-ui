@@ -48,7 +48,7 @@ export default function App() {
           theme="dark"
           mode="horizontal"
           selectedKeys={[current]}
-          style={{ minWidth: 400 }}
+          style={{ minWidth: 415 }}
         >
           {apps.map((menu) => (
             <Menu.Item key={menu.value}>
